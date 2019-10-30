@@ -1,0 +1,4 @@
+#Wed Oct 30 23:34:30 CST 2019
+base.0=D\:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

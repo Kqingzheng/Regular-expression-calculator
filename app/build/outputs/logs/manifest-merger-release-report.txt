@@ -1,0 +1,200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-33:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\6d2f7c8402a4f61d10a6c25450fd91dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\05a58ff60d029883f09bd9d967cc95e2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\cd8f75991624ecc9186d45e918d94e31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\106ec92181b345d516a0ed2f61e32745\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\72c051f9d4c8965616a1bec3fe9d3891\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a563e88e3aebd839412ebd2a5d058f50\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\321fd1b65c13e433fa8dc960b1962daa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ee6304a1fd275c0211f477c9cae2b872\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\c38acc2d107071f6d0660b3833746676\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\94120525d442da7e97fe91a9e09c086f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\48bec817c72fae74ddcdb72c8cac7f79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\99e64c9e5c46e3c8f5a78148aed1bf88\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\557ef58b96a8c5791a54522ad1a38203\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ed779aba76cb0fa9a9f42bf64f94be4c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\9e90a54951e6eba7e4d8f5dee6b1e58d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ac14efe154cb46063ccab741ce33842c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\272e711a953bc913d6edf1ce86197ce0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\22bf3e67f414ef1d72d51760e851649d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ab22ec7e276622bbf887907ad18bee00\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1e985f5b5a1b771b9edc906b5db2bbac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\f77cedbdc59eacb54fe529c2d58084f0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\273255d1cf3377a464cdab8f3f92b694\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a627830d5bd8aab107a2ee91f8daf8e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\bfb4cc568857a14671075b4cabe6bf89\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+	package
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:4:11-39
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-80
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:7:5-80
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-81
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:9:5-25:19
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-31:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:13:13-39
+	android:label
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:12:13-45
+	android:vmSafeMode
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-34
+	android:icon
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:11:13-47
+	android:allowBackup
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:10:13-39
+	android:theme
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:14:13-44
+activity#com.baidu.ocr.demo.MainActivity
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:17:17-68
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.baidu.ocr.demo.IDCardActivity
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:22:9-24:20
+	android:label
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:22:19-49
+uses-sdk
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:8:5-10:41
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\6d2f7c8402a4f61d10a6c25450fd91dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\6d2f7c8402a4f61d10a6c25450fd91dd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\05a58ff60d029883f09bd9d967cc95e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\05a58ff60d029883f09bd9d967cc95e2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\cd8f75991624ecc9186d45e918d94e31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\cd8f75991624ecc9186d45e918d94e31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\106ec92181b345d516a0ed2f61e32745\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\106ec92181b345d516a0ed2f61e32745\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\72c051f9d4c8965616a1bec3fe9d3891\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\72c051f9d4c8965616a1bec3fe9d3891\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a563e88e3aebd839412ebd2a5d058f50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a563e88e3aebd839412ebd2a5d058f50\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\321fd1b65c13e433fa8dc960b1962daa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\321fd1b65c13e433fa8dc960b1962daa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ee6304a1fd275c0211f477c9cae2b872\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ee6304a1fd275c0211f477c9cae2b872\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\c38acc2d107071f6d0660b3833746676\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\c38acc2d107071f6d0660b3833746676\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\94120525d442da7e97fe91a9e09c086f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\94120525d442da7e97fe91a9e09c086f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\48bec817c72fae74ddcdb72c8cac7f79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\48bec817c72fae74ddcdb72c8cac7f79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\99e64c9e5c46e3c8f5a78148aed1bf88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\99e64c9e5c46e3c8f5a78148aed1bf88\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\557ef58b96a8c5791a54522ad1a38203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\557ef58b96a8c5791a54522ad1a38203\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ed779aba76cb0fa9a9f42bf64f94be4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ed779aba76cb0fa9a9f42bf64f94be4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\9e90a54951e6eba7e4d8f5dee6b1e58d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\9e90a54951e6eba7e4d8f5dee6b1e58d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ac14efe154cb46063ccab741ce33842c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ac14efe154cb46063ccab741ce33842c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\272e711a953bc913d6edf1ce86197ce0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\272e711a953bc913d6edf1ce86197ce0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\22bf3e67f414ef1d72d51760e851649d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\22bf3e67f414ef1d72d51760e851649d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ab22ec7e276622bbf887907ad18bee00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\ab22ec7e276622bbf887907ad18bee00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1e985f5b5a1b771b9edc906b5db2bbac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1e985f5b5a1b771b9edc906b5db2bbac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\f77cedbdc59eacb54fe529c2d58084f0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\f77cedbdc59eacb54fe529c2d58084f0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\273255d1cf3377a464cdab8f3f92b694\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\273255d1cf3377a464cdab8f3f92b694\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a627830d5bd8aab107a2ee91f8daf8e1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a627830d5bd8aab107a2ee91f8daf8e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\bfb4cc568857a14671075b4cabe6bf89\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\bfb4cc568857a14671075b4cabe6bf89\AndroidManifest.xml:20:5-44
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:12:22-62
+uses-feature#android.hardware.camera2.full
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:16:19-63
+uses-feature#android.hardware.camera
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-60
+	android:name
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:17:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:18:19-67
+activity#com.baidu.ocr.ui.camera.CameraActivity
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-30:80
+	android:configChanges
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-59
+	android:theme
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-77
+	android:name
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-66
