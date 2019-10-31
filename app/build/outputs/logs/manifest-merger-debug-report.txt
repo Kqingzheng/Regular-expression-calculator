@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:3:1-33:12
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:3:1-34:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\6d2f7c8402a4f61d10a6c25450fd91dd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\05a58ff60d029883f09bd9d967cc95e2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\cd8f75991624ecc9186d45e918d94e31\AndroidManifest.xml:17:1-22:12
@@ -31,20 +31,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\86156\.gradle\cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\273255d1cf3377a464cdab8f3f92b694\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\a627830d5bd8aab107a2ee91f8daf8e1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\bfb4cc568857a14671075b4cabe6bf89\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
-INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
+INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
 	package
 		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:4:11-39
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-27:12
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:1-28:12
 		INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:3:11-69
@@ -64,10 +64,16 @@ uses-permission#android.permission.INTERNET
 ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:8:5-66
 	android:name
 		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:9:5-65
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:9:22-63
 application
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:9:5-25:19
-MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-31:19
-MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-31:19
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:10:5-26:19
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-32:19
+MERGED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-32:19
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\1fef3bd0ad88c7bec02c9ddb2a7fd608\AndroidManifest.xml:22:5-23:19
@@ -75,37 +81,37 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gra
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\86156\.gradle\caches\transforms-2\files-2.1\3559de3547694eb4d36ebd9a42d03768\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:13:13-39
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:14:13-39
 	android:label
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:13:13-45
 	android:vmSafeMode
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-34
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-34
 	android:icon
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:11:13-46
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:12:13-46
 	android:allowBackup
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:10:13-39
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:11:13-39
 	android:theme
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:14:13-44
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:15:13-44
 activity#com.baidu.ocr.demo.MainActivity
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:17:17-68
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:18:17-68
 	android:name
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:19:17-76
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:20:17-76
 	android:name
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.baidu.ocr.demo.IDCardActivity
-ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:22:9-24:20
+ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:23:9-25:20
 	android:label
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:23:13-48
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:24:13-48
 	android:name
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:22:19-49
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:23:19-49
 uses-sdk
 INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml
@@ -179,22 +185,22 @@ ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\bui
 	android:name
 		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-62
 uses-feature#android.hardware.camera2.full
-ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-66
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-66
 	android:name
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:19-63
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-63
 uses-feature#android.hardware.camera
-ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-60
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-60
 	android:name
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:19-57
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-70
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-70
 	android:name
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:19-67
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:19-67
 activity#com.baidu.ocr.ui.camera.CameraActivity
-ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:9-30:80
+ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-31:80
 	android:configChanges
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-59
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-59
 	android:theme
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-77
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-77
 	android:name
-		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-66
+		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-66

@@ -1,5 +1,7 @@
 package com.baidu.ocr.demo;
 
+import android.util.Log;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -53,7 +55,7 @@ public class Calculator {
                     if (ch == '(') {
                         ++bracket;
                         ++numSub;
-                    }
+                }
                     --numSub;
                     opr.push(ch);
                 }
@@ -169,6 +171,8 @@ public class Calculator {
                     opr.push(ch);
                 }
             }
+            Log.v("staack",opr.toString());
+            Log.v("numsatck",num.toString());
         }
         if (bracket != 0)
             return new String("括号不匹配");
@@ -203,6 +207,8 @@ public class Calculator {
             else if (tmpOpr == '%') {
                 num.push(x % y);
             }
+            Log.v("staack",opr.toString());
+            Log.v("numsatck",num.toString());
         }
         return String.valueOf(num.peek());
     }

@@ -11,9 +11,11 @@ import com.baidu.ocr.ui.camera.CameraActivity;
 import com.google.gson.Gson;
 
 import android.app.Activity;
+import android.app.Service;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -129,6 +131,8 @@ public class MainActivity extends AppCompatActivity {
                         signal=0;
                     }
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         one.setOnClickListener(new View.OnClickListener() {
@@ -145,6 +149,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         two.setOnClickListener(new View.OnClickListener() {
@@ -161,6 +167,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         three.setOnClickListener(new View.OnClickListener() {
@@ -177,6 +185,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         four.setOnClickListener(new View.OnClickListener() {
@@ -193,6 +203,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         five.setOnClickListener(new View.OnClickListener() {
@@ -209,6 +221,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         six.setOnClickListener(new View.OnClickListener() {
@@ -225,6 +239,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         seven.setOnClickListener(new View.OnClickListener() {
@@ -241,6 +257,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         eight.setOnClickListener(new View.OnClickListener() {
@@ -257,6 +275,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         nine.setOnClickListener(new View.OnClickListener() {
@@ -273,6 +293,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setSelection(result.getText().length());
                     signal=0;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //清除按钮监听器
@@ -285,6 +307,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //清零按钮监听器
@@ -295,6 +319,8 @@ public class MainActivity extends AppCompatActivity {
                 calculate_equation.clear();
                 signal=0;
                 result.setText("");                               //显示运算式归零并清空文本框
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //左括号按钮监听器
@@ -308,6 +334,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //右括号按钮监听器
@@ -321,6 +349,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //加号按钮监听器
@@ -334,6 +364,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //减号按钮监听器
@@ -347,6 +379,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //乘号按钮监听器
@@ -360,6 +394,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //除号按钮监听器
@@ -373,6 +409,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //%号按钮监听器
@@ -386,6 +424,8 @@ public class MainActivity extends AppCompatActivity {
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
         //等号按钮监听器
@@ -412,6 +452,8 @@ public class MainActivity extends AppCompatActivity {
                         result.setText(s3);
                         break;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
 //                String s=Calculator.EvaluateInfixExpression(show_equation.toString());
 //                show_equation.delete(0,show_equation.length());
 //                result.setText(s);
@@ -434,6 +476,8 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "中缀表达式的计算", Toast.LENGTH_SHORT).show();
                         break;
                 }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
             }
         });
     }

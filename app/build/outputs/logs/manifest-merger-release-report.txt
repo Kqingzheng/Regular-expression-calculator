@@ -81,7 +81,7 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\86156\.gra
 	android:vmSafeMode
 		ADDED from [:ocr_ui] D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\ocr_ui\build\intermediates\library_manifest\release\AndroidManifest.xml:26:9-34
 	android:icon
-		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:11:13-47
+		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:11:13-46
 	android:allowBackup
 		ADDED from D:\Androidtest\aip-ocr-android-sdk-1.4.4\OCRDemo\app\src\main\AndroidManifest.xml:10:13-39
 	android:theme

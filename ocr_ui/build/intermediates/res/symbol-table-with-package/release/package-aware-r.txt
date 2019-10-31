@@ -597,6 +597,7 @@ drawable bd_ocr_round_corner
 drawable bd_ocr_take_photo_highlight
 drawable bd_ocr_take_photo_normal
 drawable bd_ocr_take_photo_selector
+drawable jisuanqi
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
