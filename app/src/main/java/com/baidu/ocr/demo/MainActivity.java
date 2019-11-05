@@ -12,6 +12,7 @@ import com.google.gson.Gson;
 
 import android.app.Activity;
 import android.app.Service;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -19,7 +20,9 @@ import android.os.Vibrator;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.text.InputType;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -103,10 +106,11 @@ public class MainActivity extends AppCompatActivity {
         Button rbracket=(Button)findViewById(R.id.rbracket_basic_button);
         Button change=(Button)findViewById(R.id.change_basic_button);
         Button bai=(Button)findViewById(R.id.bai_basic_button);
+        Button point=(Button)findViewById(R.id.point_basic_button);
         final Button equal=(Button)findViewById(R.id.equal_basic_button);
         result=(EditText)findViewById(R.id.result);
+        result.setInputType(InputType.TYPE_NULL);//禁止软键盘的弹出
         result.setCursorVisible(true);
-        //disableShowInput(result);
         //点击文本框时光标始终在文本末尾
         result.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -327,13 +331,10 @@ public class MainActivity extends AppCompatActivity {
         lbracket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("(");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -342,13 +343,22 @@ public class MainActivity extends AppCompatActivity {
         rbracket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append(")");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
+                Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+                vi.vibrate(new long[]{0,50},-1);
+            }
+        });
+        //.号按钮监听器
+        point.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                signal=0;
+                show_equation.append(".");
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -357,13 +367,10 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("+");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -372,13 +379,10 @@ public class MainActivity extends AppCompatActivity {
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("-");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -387,13 +391,10 @@ public class MainActivity extends AppCompatActivity {
         mul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("*");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -402,13 +403,10 @@ public class MainActivity extends AppCompatActivity {
         div.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("/");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -417,13 +415,10 @@ public class MainActivity extends AppCompatActivity {
         bai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //判断用户是否输入了内容
-                if(!(show_equation.toString().equals(""))) {
                     signal=0;
                     show_equation.append("%");
                     result.setText(show_equation);
                     result.setSelection(result.getText().length());
-                }
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -589,219 +584,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
-        // 识别成功回调，通用文字识别（含位置信息）
-        if (requestCode == REQUEST_CODE_GENERAL && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recGeneral(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，通用文字识别（含位置信息高精度版）
-        if (requestCode == REQUEST_CODE_ACCURATE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recAccurate(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，通用文字识别
-        if (requestCode == REQUEST_CODE_GENERAL_BASIC && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recGeneralBasic(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
         // 识别成功回调，通用文字识别（高精度版）
         if (requestCode == REQUEST_CODE_ACCURATE_BASIC && resultCode == Activity.RESULT_OK) {
             RecognizeService.recAccurateBasic(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，通用文字识别（含生僻字版）
-        if (requestCode == REQUEST_CODE_GENERAL_ENHANCED && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recGeneralEnhanced(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，网络图片文字识别
-        if (requestCode == REQUEST_CODE_GENERAL_WEBIMAGE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recWebimage(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，银行卡识别
-        if (requestCode == REQUEST_CODE_BANKCARD && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recBankCard(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，行驶证识别
-        if (requestCode == REQUEST_CODE_VEHICLE_LICENSE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recVehicleLicense(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，驾驶证识别
-        if (requestCode == REQUEST_CODE_DRIVING_LICENSE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recDrivingLicense(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，车牌识别
-        if (requestCode == REQUEST_CODE_LICENSE_PLATE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recLicensePlate(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，营业执照识别
-        if (requestCode == REQUEST_CODE_BUSINESS_LICENSE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recBusinessLicense(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                new RecognizeService.ServiceListener() {
-                    @Override
-                    public void onResult(String result) {
-                        infoPopText(result);
-                    }
-                });
-        }
-
-        // 识别成功回调，通用票据识别
-        if (requestCode == REQUEST_CODE_RECEIPT && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recReceipt(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                new RecognizeService.ServiceListener() {
-                    @Override
-                    public void onResult(String result) {
-                        infoPopText(result);
-                    }
-                });
-        }
-
-        // 识别成功回调，护照
-        if (requestCode == REQUEST_CODE_PASSPORT && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recPassport(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                new RecognizeService.ServiceListener() {
-                    @Override
-                    public void onResult(String result) {
-                        infoPopText(result);
-                    }
-                });
-        }
-
-        // 识别成功回调，二维码
-        if (requestCode == REQUEST_CODE_QRCODE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recQrcode(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，彩票
-        if (requestCode == REQUEST_CODE_LOTTERY && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recLottery(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，增值税发票
-        if (requestCode == REQUEST_CODE_VATINVOICE && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recVatInvoice(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，数字
-        if (requestCode == REQUEST_CODE_NUMBERS && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recNumbers(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，手写
-        if (requestCode == REQUEST_CODE_HANDWRITING && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recHandwriting(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，名片
-        if (requestCode == REQUEST_CODE_BUSINESSCARD && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recBusinessCard(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
-                    new RecognizeService.ServiceListener() {
-                        @Override
-                        public void onResult(String result) {
-                            infoPopText(result);
-                        }
-                    });
-        }
-
-        // 识别成功回调，自定义模板
-        if (requestCode == REQUEST_CODE_CUSTOM && resultCode == Activity.RESULT_OK) {
-            RecognizeService.recCustom(this, FileUtil.getSaveFile(getApplicationContext()).getAbsolutePath(),
                     new RecognizeService.ServiceListener() {
                         @Override
                         public void onResult(String result) {
@@ -817,4 +602,16 @@ public class MainActivity extends AppCompatActivity {
         // 释放内存资源
         OCR.getInstance(this).release();
     }
+    /**
+     * 隐藏输入软键盘
+     * @param context
+     * @param view
+     */
+    public static void hideInputManager(Context context,View view){
+        InputMethodManager imm = (InputMethodManager) context.getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (view !=null && imm != null){
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);  //强制隐藏
+        }
+    }
+
 }

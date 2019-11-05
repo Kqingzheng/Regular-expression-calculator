@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 30 23:34:30 CST 2019
+#Mon Nov 04 19:15:38 CST 2019
 17.baseType=DIRECTORY
 4.path=classes.dex
 22.set=NATIVE_RESOURCE

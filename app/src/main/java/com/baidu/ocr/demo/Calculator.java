@@ -16,6 +16,25 @@ public class Calculator {
         return res;
     }
 
+    public static double ConvertToDouble(Queue<Character> tmp) {
+        double res = 0;
+        int dot = 1;
+        while (!tmp.isEmpty()) {
+            if (dot >= 10) {
+                dot *= 10;
+            }
+            else if (tmp.peek() == '.') {
+                dot = 10;
+                tmp.poll();
+                if (tmp.isEmpty())
+                    dot = 1;
+            }
+            if (!tmp.isEmpty())
+                res = res * 10 + tmp.poll() -'0';
+        }
+        return res / dot;
+    }
+
     public static boolean Precede(char ch1, char ch2) {
         if ((ch1 == '+' || ch1 == '-') && (ch2 == '+' || ch2 == '-' || ch2 == ')')) return true;
         else if ((ch1 == '*' || ch1 == '/' || ch1 == '%') && ch2 != '(') return true;
@@ -24,7 +43,7 @@ public class Calculator {
 
     public static String InfixToSuffix(String exp) {
         StringBuilder output = new StringBuilder();
-        Stack<Character> opr = new Stack<Character>();
+        Stack<Character> opr = new Stack<>();
         Queue<Character> tmp = new LinkedList<>();
         int bracket = 0;
         int numSub = 0;
@@ -55,7 +74,7 @@ public class Calculator {
                     if (ch == '(') {
                         ++bracket;
                         ++numSub;
-                }
+                    }
                     --numSub;
                     opr.push(ch);
                 }
@@ -113,28 +132,28 @@ public class Calculator {
     }
 
     public static String EvaluateInfixExpression(String exp) {
-        Stack<Integer> num = new Stack<>();
+        Stack<Double> num = new Stack<>();
         Stack<Character> opr = new Stack<>();
         Queue<Character> tmp = new LinkedList<>();
         int bracket = 0;
         int numSub = 0;
         for (int i = 0; i < exp.length(); ++i) {
             char ch = exp.charAt(i);
-            if ('0' <= ch && ch <= '9') {
+            if (('0' <= ch && ch <= '9') || ch == '.') {
                 tmp.offer(ch);
             }
             else if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '(' || ch == ')' || ch == '%') {
                 if (!tmp.isEmpty()) {
                     ++numSub;
-                    num.push(ConvertToInteger(tmp));
+                    num.push(ConvertToDouble(tmp));
                 }
                 while (!tmp.isEmpty()) {
                     tmp.poll();
                 }
                 while (!opr.empty() && Precede(opr.peek(), ch)) {
-                    int y = num.peek();
+                    double y = num.peek();
                     num.pop();
-                    int x = num.peek();
+                    double x = num.peek();
                     num.pop();
                     char tmpOpr = opr.peek();
                     opr.pop();
@@ -164,29 +183,36 @@ public class Calculator {
                 }
                 else {
                     if (ch == '(') {
+                        char nextCh = exp.charAt(i + 1);
+                        if (nextCh == '+' || nextCh == '-' || nextCh == '*' || nextCh == '/' || nextCh == '%') {
+                            num.push((double) 0);
+                            ++numSub;
+                        }
+                        ++numSub;
                         ++bracket;
+                    }
+                    if (i == 0 && (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '%')) {
+                        num.push((double) 0);
                         ++numSub;
                     }
                     --numSub;
                     opr.push(ch);
                 }
             }
-            Log.v("staack",opr.toString());
-            Log.v("numsatck",num.toString());
         }
         if (bracket != 0)
             return new String("括号不匹配");
         if (!tmp.isEmpty()) {
             ++numSub;
-            num.push(ConvertToInteger(tmp));
+            num.push(ConvertToDouble(tmp));
         }
-        if (numSub != 1)
-            //System.out.println(numSub);
+        if (numSub != 1) {
             return new String("表达式错误");
+        }
         while (!opr.empty()) {
-            int y = num.peek();
+            double y = num.peek();
             num.pop();
-            int x = num.peek();
+            double x = num.peek();
             num.pop();
             char tmpOpr = opr.peek();
             opr.pop();
@@ -207,8 +233,6 @@ public class Calculator {
             else if (tmpOpr == '%') {
                 num.push(x % y);
             }
-            Log.v("staack",opr.toString());
-            Log.v("numsatck",num.toString());
         }
         return String.valueOf(num.peek());
     }
@@ -217,7 +241,7 @@ public class Calculator {
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
         System.out.println(EvaluateInfixExpression(str));
-        System.out.println(InfixToSuffix(str));
-        System.out.println(EvaluateSuffixExpression(InfixToSuffix(str)));
+        //System.out.println(InfixToSuffix(str));
+        //System.out.println(EvaluateSuffixExpression(InfixToSuffix(str)));
     }
 }
