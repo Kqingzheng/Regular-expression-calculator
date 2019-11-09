@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 30 23:38:47 CST 2019
+#Tue Nov 05 20:26:17 CST 2019
 4.path=lib/x86/libidl_license.so
 13.baseType=DIRECTORY
 8.set=NATIVE_RESOURCE

@@ -357,6 +357,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 signal=0;
                 show_equation.append(".");
+                if(show_equation.toString().length()==1) {
+                    show_equation.insert(0,"0");
+                }
                 result.setText(show_equation);
                 result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
@@ -367,10 +370,13 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    signal=0;
-                    show_equation.append("+");
-                    result.setText(show_equation);
-                    result.setSelection(result.getText().length());
+                signal=0;
+                show_equation.append("+");
+                if(show_equation.toString().length()==1) {
+                    show_equation.insert(0,"0");
+                }
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -379,10 +385,10 @@ public class MainActivity extends AppCompatActivity {
         sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    signal=0;
-                    show_equation.append("-");
-                    result.setText(show_equation);
-                    result.setSelection(result.getText().length());
+                signal=0;
+                show_equation.append("-");
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -391,10 +397,13 @@ public class MainActivity extends AppCompatActivity {
         mul.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    signal=0;
-                    show_equation.append("*");
-                    result.setText(show_equation);
-                    result.setSelection(result.getText().length());
+                signal=0;
+                show_equation.append("*");
+                if(show_equation.toString().length()==1) {
+                    show_equation.insert(0,"0");
+                }
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -403,10 +412,13 @@ public class MainActivity extends AppCompatActivity {
         div.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    signal=0;
-                    show_equation.append("/");
-                    result.setText(show_equation);
-                    result.setSelection(result.getText().length());
+                signal=0;
+                show_equation.append("/");
+                if(show_equation.toString().length()==1) {
+                    show_equation.insert(0,"0");
+                }
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }
@@ -415,10 +427,13 @@ public class MainActivity extends AppCompatActivity {
         bai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    signal=0;
-                    show_equation.append("%");
-                    result.setText(show_equation);
-                    result.setSelection(result.getText().length());
+                signal=0;
+                show_equation.append("%");
+                if(show_equation.toString().length()==1) {
+                    show_equation.insert(0,"0");
+                }
+                result.setText(show_equation);
+                result.setSelection(result.getText().length());
                 Vibrator vi=(Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
                 vi.vibrate(new long[]{0,50},-1);
             }

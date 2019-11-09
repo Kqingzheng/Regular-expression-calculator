@@ -12,12 +12,12 @@
         "source": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\ocr_ui\\build\\intermediates\\packaged_res\\debug\\layout\\bd_ocr_take_picture.xml"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
@@ -40,12 +40,12 @@
         "source": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\ocr_ui\\build\\intermediates\\packaged_res\\debug\\drawable-xhdpi-v4\\bd_ocr_reset.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -60,24 +60,24 @@
         "source": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\layout\\abc_cascading_menu_item_layout.xml"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\layout\\abc_cascading_menu_item_layout.xml"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
@@ -200,20 +200,20 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
@@ -348,12 +348,12 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
@@ -452,12 +452,12 @@
         "source": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\ocr_ui\\build\\intermediates\\packaged_res\\debug\\drawable-xhdpi-v4\\bd_ocr_take_photo_selector.xml"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -496,12 +496,12 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
@@ -532,12 +532,12 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_bd_ocr_hint_align_id_card_back.png.flat",
         "source": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\ocr_ui\\build\\intermediates\\packaged_res\\debug\\drawable-xhdpi-v4\\bd_ocr_hint_align_id_card_back.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -592,20 +592,20 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\a387da8d4d176c2c7bb22b54a7a2c090\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-mdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
@@ -632,16 +632,16 @@
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_track_material.xml.flat",
-        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\86156\\.gradle\\caches\\transforms-2\\files-2.1\\33117e7563c24772662609028b67a1fb\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\Androidtest\\aip-ocr-android-sdk-1.4.4\\OCRDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
